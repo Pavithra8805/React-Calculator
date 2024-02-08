@@ -1,0 +1,169 @@
+/* body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.calculator {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+}
+
+input[type='text'] {
+  width: 100%;
+  height: 40px;
+  font-size: 20px;
+  text-align: right;
+  margin-bottom: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.button-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.button-container button {
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: rgb(229, 151, 236);
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.operation-button {
+  margin-top: 2px;
+  background-color: #f44336;
+}
+
+.operation-button:hover {
+  background-color: #d32f2f;
+}
+
+.clear-button {
+  background-color: #2196f3;
+}
+
+.clear-button:hover {
+  background-color: #1976d2;
+}
+
+.del-button {
+  background-color: #ff9800;
+}
+
+.del-button:hover {
+  background-color: #e65100;
+} */
+
+/* App.css */
+.container {
+  font-family: Arial, sans-serif;
+  width: 400px;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.calculator {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+input[type='text'] {
+  width: 100%;
+  height: 50px;
+  font-size: 24px;
+  text-align: right;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.button-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin: auto;
+}
+
+
+.button-container button {
+  width: 100%;
+  height: 60px;
+  font-size: 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.button-container button {
+  background-color: #a2c6f3;
+}
+
+.button-container button.center {
+  grid-column: span 2;
+  padding: 10px;
+
+  justify-self: center; 
+}
+
+.operation-button {
+  background-color: #ff9900;
+  color: #fff;
+  top: 3px;
+  margin-top: 10px;
+}
+
+.operation-button:hover {
+  background-color: #ff8000;
+}
+
+.clear-button {
+  color: black;
+  margin-top: 10px;
+}
+
+.clear-button:hover {
+  background-color: #f78b8b;
+}
+
+.del-button {
+  background-color: #ff3333;
+  color: #fff;
+  margin-top: 10px;
+}
+
+.del-button:hover {
+  background-color: #cc0000;
+}
